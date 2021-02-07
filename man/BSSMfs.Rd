@@ -391,7 +391,14 @@ The \code{"MCMC_summary"} data frame containg the summarized MCMC output has the
 }
 }
 \description{
-
+This function implements a Markov chain Monte Carlo (MCMC) Gibbs sampler to fit
+a Bayesian specific-specific bi-level feature selection model;
+this model is developed for the data scenario where we have time-invariant feature data and
+irregularly-spaced longitudinal outcome data;
+this model specifies time-varying
+feature parameters, and allows for the incorporation of group structure into
+the feature selection process.
+\loadmathjax
 }
 \examples{
 
