@@ -1,0 +1,15 @@
+Package: BSSMfs
+Type: Package
+Title: Bayesian Subject-Specific Bi-level Feature Selection Model
+Version: 0.1.0
+Author: Daniel R. Baer
+Maintainer: Daniel Baer <danielrbaer@gmail.com>
+Imports: coda, dplyr, MASS, mathjaxr, MCMCpack, tidyr, truncnorm
+RdMacros: mathjaxr 
+Description: This R package implements a Bayesian subject-specific bi-level feature selection model via a Markov chain Monte Carlo Gibbs sampler; 
+	this model is for the data scenario where we have time-invariant feature data and irregularly-spaced longitudinal outcome data; 
+	this model specifies time-varying feature parameters, and allows for the incorporation of group structure into the feature selection process.
+License: GPL (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
