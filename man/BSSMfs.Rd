@@ -217,7 +217,7 @@ If \code{raw_MCMC_output=TRUE}, \code{BSSMfs} returns a list with two data frame
 \code{"MCMC_output"} and \code{"MCMC_summary"};
 \code{"MCMC_output"} is a data frame with the un-summarized MCMC output, while
 \code{"MCMC_summary"} is a data frame with the summarized MCMC output.
-If \code{raw_MCMC_output=FALSE}, \code{LMMfs} returns a list with only one data frame named
+If \code{raw_MCMC_output=FALSE}, \code{BSSMfs} returns a list with only one data frame named
 \code{"MCMC_summary"}
 
 The \code{"MCMC_output"} data frame containing the un-summarized MCMC output has the following columns:
